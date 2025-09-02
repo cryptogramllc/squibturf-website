@@ -1,0 +1,43 @@
+{
+  "DomainName": "squibturf.com",
+  "DurationInYears": 1,
+  "AdminContact": {
+    "FirstName": "Jibran",
+    "LastName": "Ahmed",
+    "ContactType": "PERSON",
+    "OrganizationName": "SquibTurf",
+    "AddressLine1": "123 Main St",
+    "City": "New York",
+    "State": "NY",
+    "CountryCode": "US",
+    "ZipCode": "10001",
+    "PhoneNumber": "+1.5551234567",
+    "Email": "admin@squibturf.com"
+  },
+  "RegistrantContact": {
+    "FirstName": "Jibran",
+    "LastName": "Ahmed",
+    "ContactType": "PERSON",
+    "OrganizationName": "SquibTurf",
+    "AddressLine1": "123 Main St",
+    "City": "New York",
+    "State": "NY",
+    "CountryCode": "US",
+    "ZipCode": "10001",
+    "PhoneNumber": "+1.5551234567",
+    "Email": "admin@squibturf.com"
+  },
+  "TechContact": {
+    "FirstName": "Jibran",
+    "LastName": "Ahmed",
+    "ContactType": "PERSON",
+    "OrganizationName": "SquibTurf",
+    "AddressLine1": "123 Main St",
+    "City": "New York",
+    "State": "NY",
+    "CountryCode": "US",
+    "ZipCode": "10001",
+    "PhoneNumber": "+1.5551234567",
+    "Email": "admin@squibturf.com"
+  }
+}
