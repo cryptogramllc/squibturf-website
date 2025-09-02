@@ -16,25 +16,10 @@ export default function Hero() {
                 Local Community
               </span>
             </h1>
-            <div className="text-lg text-gray-600 mb-8 leading-relaxed space-y-4">
-              <p>
-                Have you ever been on Facebook and thought "I am tired of hearing from everyone around the world, just tell me what's going on around me!"? We certainly have! And that's where the idea for SquibTurf came from.
-              </p>
-              <p>
-                SquibTurf combines the fun of social networking with power of geo-tagging to bring you live updates about your surroundings. Here's how it works:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Log into SquibTurf through Facebook or Google Plus</li>
-                <li>SquibTurf lets you know when there is something going on around you that other Squibbers totally dig. Post a memory, a funny joke, a great deal you just got or a review you want others to hear about. It's all possible on SquibTurf</li>
-                <li>Connect with users around you. It's as easy as clicking on the user profile or going to your history selecting past user profiles</li>
-              </ul>
-              <p>
-                SquibTurf can be used in a variety of ways to make your life better. Think about it, a "News feed" that is specific to where I am, on "My Turf". Download SquibTurf today and start connecting with people around you!
-              </p>
-              <p>
-                Want to know what's going on around you? Tired of seeing your newsfeed flooded with boring content from all around the world? SquibTurf combines the fun of social networking with your location.
-              </p>
-            </div>
+            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              Tired of seeing your newsfeed flooded with content from all around the world? 
+              SquibTurf brings you live updates about what's happening right around you on your mobile device.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a 
                 href="https://apps.apple.com/app/squibturf" 
