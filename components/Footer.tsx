@@ -1,11 +1,11 @@
-import { MapPin, Mail, Phone } from 'lucide-react'
+
 import Image from 'next/image'
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-max section-padding">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-12 h-12 relative">
@@ -51,27 +51,9 @@ export default function Footer() {
               <li><a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
               <li><a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
               <li><a href="#download" className="text-gray-400 hover:text-white transition-colors">Download</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+              <li><a href="https://cryptogramllc.github.io/squibturf-support/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
+              <li><a href="https://cryptogramllc.github.io/squibturf-privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
             </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-gray-400" />
-                <span className="text-gray-400">Your Local Community</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-gray-400" />
-                <span className="text-gray-400">hello@squibturf.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-gray-400" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
-              </div>
-            </div>
           </div>
         </div>
         

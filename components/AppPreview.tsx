@@ -44,16 +44,7 @@ export default function AppPreview() {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">
-            Swipe through the screenshots above to see different features of the SquibTurf app
-          </p>
-          <div className="flex justify-center space-x-2">
-            {screenshots.map((_, index) => (
-              <div key={index} className="w-2 h-2 bg-gray-300 rounded-full hover:bg-primary-500 transition-colors cursor-pointer"></div>
-            ))}
-          </div>
-        </div>
+
       </div>
     </section>
   )
